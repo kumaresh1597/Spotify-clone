@@ -1,0 +1,503 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidebar{
+    width: 230px;   
+    height: 1080px; 
+    background: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: space-between; */
+    color: white;
+    /* padding: 20px; */
+}
+.logo{
+    padding: 10px;
+}
+.side1{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.side-content{
+font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+text-align: left;
+}
+.home>div{
+    margin: 10px;
+}
+.search>div{
+    margin: 10px; 
+}
+.library>div{
+    margin: 10px;
+}
+
+.side1>button{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+.side1>button:hover{
+    background-color: #181818;   
+}
+
+.playlist{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.create-playlist>div{
+    margin: 10px;
+}
+.songs>div{
+    margin: 10px;
+}
+
+.playlist-icon{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 37.06px;
+    width: 37.06px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-icon{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    height: 37.06px;
+    width: 37.06px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playlist>button{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+.playlist>button:hover{
+    background-color: #181818;
+}
+
+.currImg{
+    margin-right: 5px;
+    margin-top: 275px;
+}
+
+.mainbar{
+    flex: 4;
+}
+
+.mainbar1{
+    height: 536px;
+    background:linear-gradient(180deg, #90AEA7 0%, #000000 89.7%);
+    color: white;
+    display: flex;
+    align-items:center
+}
+.mainbar2{
+flex: 4;
+height: 585px;
+color: white;
+top: 402px;
+left: 230px;
+background-color: #000000;
+display: flex;
+flex-direction: column;
+}
+
+.r1{
+font-family: Circular Std;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+.r2{
+font-family: Circular Std;
+font-size: 90px;
+font-weight: 900;
+line-height: 114px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+.r3{
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;    
+}
+.r4>span{
+font-family: Circular Std;
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+
+} 
+
+.r4{
+    font-family: Circular Std;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-align: left;    
+}
+
+.head-img{
+    margin-left: 10px;
+}
+
+.head-img>img{
+    margin-inline: 10px;
+} 
+.title-heading{
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: 1px solid white;
+}
+.playlist-list{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.playlist-list>div{
+    margin: 5px;
+}
+
+.list-row{
+    height: 54px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.selected{
+    background-color: #181818;
+}
+
+.artist>div{
+    margin: 5px;
+}
+.artist-d1{
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.artist-d2{
+font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.album-name{
+font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.date-added{
+    font-weight: 400;
+}
+
+.right-fit{
+    padding-right: 30px;
+}
+
+.likes{
+font-family: Circular Std;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.likes>img{
+    margin:5px;
+}
+
+.musicPlayer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-width: 0px, 0px, 0px, 0px;
+    border-style: solid;
+    border-color: #282828;
+    background-color:#181818;
+    color: white;
+}
+.content1{
+    font-size: 21px;
+    font-weight: 500;
+}
+.content2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #B3B3B3;
+}
+
+.track-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+}
+
+.info-d1{
+    font-size: 18px; 
+    font-weight: 700
+}
+
+.info-d2{
+    font-size: 15px; 
+    font-weight: 700;
+    color: #B3B3B3;
+}
+
+.controlls{
+    width: 704px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controlls>img{
+    margin: 10px;
+}
+
+.seek{
+    height: 5px;
+    width: 511px;
+    background-color:#535353;
+    margin-inline: 10px;
+}
+
+.seek-1{
+    height: 5px;
+    width: 75%; 
+    background-color:#C4C4C4;
+}
+
+.volume-seek{
+    height: 5px;
+    width: 104px; 
+    background-color:#C4C4C4;
+}
+.volume>img{
+    padding: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    
+    .mainbar1{
+        height: 536px;
+        width: 100%;
+        background:linear-gradient(180deg, #90AEA7 0%, #000000 89.7%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .mainbar1>.img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .r1{
+        font-family: Circular Std;
+        font-size: 10px;
+        font-weight: 500;
+        text-align: left;
+        
+        }
+        .r2{
+        font-family: Circular Std;
+        font-size: 60px;
+        font-weight: 900;
+        text-align: left;
+        }
+        .r3{
+            font-family: Circular Std;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;    
+        }
+        .r4>span{
+        font-family: Circular Std;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: left;
+        
+        } 
+        
+        .r4{
+            font-family: Circular Std;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;    
+        }
+
+        .musicPlayer{
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            height: 93px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-width: 0px, 0px, 0px, 0px;
+            border-style: solid;
+            border-color: #282828;
+            background-color:#181818;
+            color: white;
+        }
+        .content1{
+            font-size: 21px;
+            font-weight: 500;
+        }
+        .content2{
+            font-size: 15px;
+            font-weight: 500;
+            color: #B3B3B3;
+        }
+        
+        .track-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 125px;
+        }
+
+        .info-d1{
+            font-size: 12px; 
+            font-weight: 700
+        }
+        
+        .info-d2{
+            font-size: 10px; 
+            font-weight: 700;
+            color: #B3B3B3;
+        }
+        
+        .controlls{
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .controlls>img{
+            margin: 10px;
+        }
+        
+        .seek{
+            height: 5px;
+            width: 200px;
+            background-color:#535353;
+            margin-inline: 10px;
+        }
+        
+        .seek-1{
+            height: 5px;
+            width: 75%; 
+            background-color:#C4C4C4;
+        }
+        
+        .volume-seek{
+            height: 5px;
+            width: 54px; 
+            background-color:#C4C4C4;
+        }
+        .volume>img{
+            padding: 5px;
+        }
+
+        .list-row{
+            height: 54px;
+            width: 100vw;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        
+        .artist>div{
+            margin: 5px;
+        }
+        .artist-d1{
+            font-family: Circular Std;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;    
+        }
+        .artist-d2{
+        font-family: Circular Std;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        }
+        .album-name{
+        font-family: Circular Std;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+        .date-added{
+            font-weight: 400;
+        }
+        
+        .right-fit{
+            padding-right: 30px;
+        }
+        
+        .likes{
+        font-family: Circular Std;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        }
+        .likes>img{
+            margin:5px;
+        }
+}
